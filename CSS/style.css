@@ -1,0 +1,32 @@
+/* CSS styles for the web page */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
