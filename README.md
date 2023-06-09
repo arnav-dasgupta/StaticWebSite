@@ -1,0 +1,2 @@
+# StaticWebSite
+Scalable Services Assignment
