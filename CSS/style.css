@@ -1,32 +1,143 @@
 /* CSS styles for the web page */
 
 body {
+
   font-family: Arial, sans-serif;
+
+  font:10px/1.5 Arial, Helvetica, San-Serif;
+
+  padding:0;
+
+  margin:0;  
+
+  background: url('../image/Background_pic.jpg') no-repeat center center fixed;
+
+  -webkit-background-size: cover;
+
+  -moz-background-size: cover;
+
+  -o-background-size: cover;
+
+  background-size: cover;
+
+  overflow-x: hidden;
+
 }
+
+
+
 
 h1 {
-  color: #333;
+
+  color: #080808;
+
+  align-self: center;
+
 }
+
+
+
 
 img {
+
   width: 300px;
+
   height: 200px;
+
 }
+
+
+
 
 ul {
+
   list-style-type: disc;
+
+  display: inline-block;
+
 }
+
+
+
 
 table {
+
   border-collapse: collapse;
+
   width: 100%;
+
+  align-self: center;
+
+  align-items: center;
+
+  margin: 0 auto;
+
 }
+
+
+
 
 th, td {
-  border: 1px solid #ccc;
+
+  border: 1px solid #070707;
+
   padding: 8px;
+
+  border: 1px solid;
+
+  align-self: center;
+
+  align-items: center;
+
+  margin: 0 auto;
+
 }
 
+
+
+
 th {
-  background-color: #f2f2f2;
+
+  background-color: #020202;
+
+  align-self: center;
+
+  text-align: center;
+
+}
+
+
+
+
+.content{
+
+  min-height:500px;
+
+  align-self: center;
+
+   display: flex;
+
+   justify-content: center;
+
+   align-items: center;
+
+}
+
+
+
+
+.elements{
+
+  margin: auto;
+
+  overflow: hidden;
+
+  width: 90%;
+
+  font-size:20px;
+
+  color: #FFFFFF;    
+
+  text-shadow: 2px 2px 5px #000000;
+
 }
